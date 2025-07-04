@@ -1,0 +1,11 @@
+To create the Quantum Garden repository on GitHub, please run:
+
+1. First, authenticate with GitHub:
+   gh auth login
+
+2. Choose 'GitHub.com'
+3. Choose 'HTTPS' for protocol
+4. Authenticate with a web browser
+5. Follow the prompts to complete authentication
+
+Once authenticated, I'll create the repository and push your code.
