@@ -28,15 +28,31 @@ Quantum Garden is an open-source platform for orchestrating AI agents that work 
 
 ```bash
 # Clone the repository
-git clone https://github.com/msimka/quantum-garden.git
+git clone https://github.com/Elias-Labs/quantum-garden.git
 cd quantum-garden
 
-# Install dependencies
-pip install -r requirements.txt
+# Run the interactive demo
+./run_demo.sh
 
-# Run your first agent
-python -m quantum_garden.agents.firefly email cleanup
+# Or manually:
+pip install rich typer click
+python examples/firefly_demo.py
 ```
+
+### 🎬 Live Demo
+
+Try our **Firefly Email Agent** demo to see AI-powered inbox management in action:
+
+```bash
+python examples/firefly_demo.py
+```
+
+This interactive demo shows:
+- 🤖 AI suggestions for each email
+- 📝 Draft/Send safety controls  
+- 🗂️ Bulk operations ("archive all older")
+- 📊 Real-time processing statistics
+- 🎯 Inbox Zero methodology
 
 ## 🐛 The Agent Ecosystem
 
